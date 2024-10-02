@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/style.css" rel="stylesheet">
+    <title>Estudos TailwindCSS</title>
+</head>
+<body class="bg-gray-400 font-mono">
+    <section class="text-center space-y-4">
+    <h1 class="text-3xl font-bold underline">Olá, Tailwind!</h1>
+    <h1 class="text-sm text-violet-500">Aprendendo tipografia e cores</h1>
+    <h1 class="text-base">Aprendendo tipografia e cores</h1>
+    <h1 class="text-lg">Aprendendo tipografia e cores</h1>
+    <h1 class="text-xl">Aprendendo tipografia e cores</h1>
+    <h1 class="text-2xl">Aprendendo tipografia e cores</h1>
+    <h1 class="text-3xl text-blue-600 hover:bg-blue400 hover:text-white">Aprendendo tipografia e cores</h1>
+</section><br>
+<hr>
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo espaçamento</h1>
+    
+<section id="espacamento-X" class="space-x-4 text-xl">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</section>
+<section id="espacamento-Y" class="space-y-4 text-xl">
+    <section>4</section>
+    <section>5</section>
+    <section>6</section>
+</section>
+</section><br>
+<hr>
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo bordas</h1>
+    <p class="text-white border-4 mx-20 my-2 border-green-900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, tempore?</p>
+    <p class="text-blue-500 border-4 rounded mx-20 my-2 border-yellow-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, tempore?</p>
+    <p class="text-green-500 border-4 rounded-xl mx-20 my-2 border-red-950">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, tempore?</p>
+    <button type="submit" class="bg-slate-500 text-white p-2 border-2 rounded-md hover:bg-slate-400 hover:text-black">Clique aqui</button>
+</section><br>
+<hr>
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo Backgrounds</h1>
+    <section id="bg-normal" class="m-4 bg-red-400 ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum, quas laboriosam eos quis pariatur.
+    </section>
+    <section id="bg-gradient" class="m-4 p-2 bg-gradient-to-r from-red-600 via-red-500 to-red-400 text-white">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi illo ab aliquam voluptas tempora natus.
+    </section>
+</section><br>
+<hr>
+
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo largura e altura</h1>
+    <section class="mt-4">
+        <section class="bg-slate-800 w-full h-80 text-white text-center text-xl"> OI </section>
+        <section class="bg-gradient-to-l from-zinc-950 via-blue-400 to-yellow-300 w-full h-80 text-white text-center text-xl">OLÁ</section>
+    </section>
+</section><br>
+<hr>
+
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo Flex Box</h1>
+    <section class="mt-4 flex flex-wrap justify-center space-x-4">
+        <section class="flex w-20 h-20 bg-red-400 text-white justify-center items-center"><h1>1</h1></section>
+        <section class="flex w-20 h-20 bg-green-400 text-white justify-center items-center"><h1>2</h1></section>
+        <section class="flex w-20 h-20 bg-blue-400 text-white justify-center items-center"><h1>3</h1></section>
+    </section>
+</section>
+
+<br>
+<hr>
+
+<section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline">Aprendendo Grid</h1>
+    <section class="mt-8 grid grid-cols-5 gap-10">
+        <section class="grid col-span-5 bg-red-400 text-white"><h1>1</h1></section>
+        <section class="grid col-span-3 bg-green-400 text-white"><h1>2</h1></section>
+        <section class="grid col-span-2 bg-blue-400 text-white"><h1>3</h1></section>
+    </section>
+</section><br>
+<hr>
+
+    <section class="text-center mt-8">
+    <h1 class="text-3xl font-bold underline ">Aprendendo Estados(Hover, Focus, etc)</h1>
+    <h1 class="text-xl text-slate-900 hover:text-red-400">Nessa frase está sendo aplicado um Hover.</h1>
+    <section class="group w-1/3 h-30 bg-green-800 text-white">
+        <h1 class="font-bold group-hover:text-yellow-400">Titulo da minha box</h1><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, beatae.</p>
+    </section>
+    <section class="text-center">
+        <form action="">
+            <label for="nome" class="text-lg font-bold">Digite seu nome: </label>
+            <input type="text" name="nome" class="text-lg px-4 py-2 focus:text-blue-600">
+        </form>
+    </section><br>
+    <hr>
+
+    <section class="text-center mt-8">
+        
+    </section><br>
+    <hr>
+</section>
+</body>
+</html>

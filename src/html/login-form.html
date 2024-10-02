@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+<body class="w-full h-full bg-[#154903] flex items-center justify-center">
+    <main class="mt-20 space-y-4">
+        <h2 class="font-semibold text-xl text-gray-200 text-center">LOGIN</h2>
+        <section class="size-[300px] bg-[#4a7c35] p-6 rounded-md space-y-4 shadow-lg">
+
+                <section class="flex flex-col">
+                    <label for="email" class="text-base text-gray-200">Email</label>
+                    <input type="text" name="email" id="email" class="border rounded-md focus:outline-none px-2 py-1 focus:ring-1 focus:ring-blue-500" required>
+                </section>
+
+                <section class="flex flex-col">
+                    <label for="senha" class="text-base text-gray-200">Senha</label>
+                    <input type="password" name="senha" id="senha" class="border rounded-md focus:outline-none px-2 py-1 focus:ring-1 focus:ring-blue-500" required>
+                </section>
+
+                <section>
+                    <a href="http://" class="text-sm text-gray-300 hover:underline">Esqueceu a senha?</a>
+                </section>
+
+                <section class="flex justify-end">
+                    <button type="submit" class="text-base text-gray-200 border px-4 py-1 rounded-md bg-blue-600 hover:bg-blue-700 shadow-md active:scale-95">Login</button>
+                </section>
+
+        </section>
+    </main>
+</body>
+</html>
